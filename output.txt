@@ -1,10 +1,10 @@
-p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path
-p-Path,p-Path,w-Brick,p-Path,p-Path,p-Path,p-Path,w-Brick,p-Path,p-Path
-p-Path,p-Path,w-Brick,p-Path,p-Path,p-Path,p-Path,w-Brick,p-Path,p-Path
-p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path
-p-Path,p-Path,w-Brick,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path
-p-Path,p-Path,w-Brick,p-Path,p-Path,p-Path,p-Path,p-Path,w-Brick,p-Path
-p-Path,p-Path,w-Brick,w-Brick,p-Path,p-Path,w-Brick,w-Brick,w-Brick,p-Path
-p-Path,p-Path,p-Path,w-Brick,w-Brick,w-Brick,w-Brick,p-Path,p-Path,p-Path
-p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path
-p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path,p-Path
+w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick
+w-Brick,p-Path,e-Enemy,p-Path,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
+w-Brick,p-Path,p-Path,p-Path,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
+w-Brick,r-Tall_Grass,r-Tall_Grass,r-Tall_Grass,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
+w-Brick,p-Path,p-Path,p-Path,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
+w-Sign-world~Title~text blah. blah~Brick.png,p-Path,p-Path,p-Path,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
+w-Sign-world~Title~text blah. blah~Brick.png,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,w-Brick
+w-Brick,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Brick
+w-Brick,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,w-Brick
+w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick

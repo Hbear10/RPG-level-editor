@@ -3,6 +3,8 @@ import math
 import pygame_widgets
 from pygame_widgets.dropdown import Dropdown
 from pygame_widgets.button import Button
+# from pygame_widgets.textbox import TextBox
+#import pygame_textinput
 
 from Map import *
 
@@ -53,6 +55,16 @@ dropdown = Dropdown(
     borderRadius=3, colour=pygame.Color(255,255,255), values=["p", "w", 'h', "e","r","l"], direction='down', textHAlign='left')        
 
 
+extra_info = ""
+# def set_info():
+#     global extra_info
+#     extra_info = "hi"
+
+# extra_info_box = TextBox(screen, 1000, 600, 200, 60, fontSize=25,
+#                   borderColour=(255, 0, 0), textColour=(0, 200, 0),
+#                   onSubmit=None, radius=10, borderThickness=5)
+
+#extra_info_box = pygame_textinput.TextInputVisualizer()
 
 
 def file_output():
@@ -64,7 +76,17 @@ def file_output():
             if len(x.extra_info) == 0:
                 #print(x.type)
                 #print(x.img)
-                output_line+=str(x.type)+"-"+str(x.img)+","
+                
+                
+                output_line+=(str(x.type)[0])+"-"+str(x.img)+","
+            else:
+                
+                # ex = ""
+                # if x.type != "wall":
+                #     for i in x.extra_info:
+                #         ex+=i+"~"#
+
+                output_line+=(str(x.type)[0])+"-"+str(x.img)+"-"+str(x.extra_info)+","
         file.write(output_line[:-1]+"\n")
     file.close()
 
@@ -75,6 +97,21 @@ done_button = button = Button(
     textVAlign='bottom'
 )
 
+
+def extra_input():
+    global extra_info
+    inp = input(":")
+    if inp == "":
+        extra_info = ""
+    else:
+        extra_info = inp
+
+extra_info_input = button = Button(
+    screen, 1000, 600, 100, 50, text='Input Extra_info', fontSize=30,
+    margin=20, inactiveColour=(255, 0, 0), pressedColour=(0, 255, 0),
+    radius=5, onClick=extra_input, font=pygame.font.SysFont('calibri', 10),
+    textVAlign='bottom'
+)
 
 selected_tile = "Brick"
 
@@ -101,12 +138,23 @@ while running:
                     x = (event.pos[0]-332)//64
                     y=(event.pos[1]-40)//64
                     #print(map[y][x].img)
-                    map[y][x] = tile(selected_tile,dropdown.getSelected())
+                    
+                    if dropdown.getSelected() != None:
+                        if extra_info == "":
+                            map[y][x] = tile(selected_tile,dropdown.getSelected())
+                        else:
+                            map[y][x] = tile(selected_tile,dropdown.getSelected(),extra_info)
+
                 
             except AttributeError:
                  pass
-                        
+
+        #extra_info_box.update(pygame.event.get())
+        # Blit its surface onto the screen
+        
+
         screen.fill((120,255,120))
+        #screen.blit(extra_info_box.surface, (200, 200))
         draw_world()
         draw_tiles(tiles)
 
