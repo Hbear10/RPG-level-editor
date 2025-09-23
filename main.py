@@ -13,8 +13,8 @@ screen = pygame.display.set_mode((1280, 720))
 screen.fill((120,255,120))
 
 tiles = {}
-map,tiles = map_load("start",tiles)
-
+map,tiles = map_load("open", tiles)
+map,tiles = map_load("blank",tiles)
 
 def draw_world():#draw map
     #screen.fill((0,0,0))
