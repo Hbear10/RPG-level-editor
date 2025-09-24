@@ -1,10 +1,10 @@
-w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick
-w-Brick,p-Path,e-Enemy,p-Path,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
-w-Brick,p-Path,p-Path,p-Path,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
-w-Brick,r-Tall_Grass,r-Tall_Grass,r-Tall_Grass,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
-w-Brick,p-Path,p-Path,p-Path,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
-w-Sign-world~Title~text blah. blah~Brick.png,p-Path,p-Path,p-Path,p-Path,p-Path,p-Grass,p-Grass,p-Grass,w-Brick
-w-Sign-world~Title~text blah. blah~Brick.png,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,w-Brick
-w-Brick,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Sign-world~Title~text blah. blah~Brick.png,w-Brick
-w-Brick,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,p-Grass,w-Brick
-w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick,w-Brick
+w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,p-Blue_Path_NW,p-Blue_Path_NE,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick
+w-Blue_Brick,r-Path,r-Tall_Grass,r-Tall_Grass,p-Blue_Path_W,p-Blue_Path_E,r-Tall_Grass,r-Tall_Grass,r-Path,w-Blue_Brick
+w-Blue_Brick,r-Path,r-Tall_Grass,r-Tall_Grass,p-Blue_Path_W,p-Blue_Path_E,r-Tall_Grass,r-Tall_Grass,r-Path,w-Blue_Brick
+w-Blue_Brick,r-Path,r-Tall_Grass,r-Tall_Grass,p-Blue_Path_W,p-Blue_Path_E,r-Tall_Grass,r-Tall_Grass,r-Path,w-Blue_Brick
+w-Blue_Brick,r-Path,r-Tall_Grass,r-Mushroom,p-Blue_Path_W,p-Blue_Path_E,r-Tall_Grass,r-Tall_Grass,r-Path,w-Blue_Brick
+w-Blue_Brick,r-Path,p-Blue_Path_NW,p-Blue_Path_N,p-Blue_Path_M,p-Blue_Path_M,p-Blue_Path_N,p-Blue_Path_NE,r-Path,w-Blue_Brick
+w-Blue_Brick,r-Path,p-Blue_Path_SW,p-Blue_Path_S,p-Blue_Path_S,p-Blue_Path_S,p-Blue_Path_S,p-Blue_Path_SE,r-Path,w-Blue_Brick
+w-Blue_Brick,r-Path,r-Tall_Grass,r-Path,r-Path,r-Path,r-Path,r-Path,r-Path,w-Blue_Brick
+w-Blue_Brick,r-Path,r-Path,r-Slime,r-Path,r-Path,r-Path,r-Mushroom,r-Path,w-Blue_Brick
+w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick,w-Blue_Brick
