@@ -129,7 +129,7 @@ while running:
                 
                 if event.pos[0] < 320 and event.pos[1] > 36 and event.pos[1]<math.ceil(len(tiles)/5)*64+36:#in range of max coords for tiles
                     #print((event.pos[0])//64)
-                    if event.pos[1]<math.ceil(len(tiles)/5)*64-28 or (event.pos[0])//64<len(tiles)%5: #in range of all tiles
+                    if event.pos[1]<math.ceil(len(tiles)/5)*64-28 or ((event.pos[0])//64<len(tiles)%5 and len(tiles)%5!=0) or ((event.pos[0])//64<5 and len(tiles)%5==0): #in range of all tiles
                         index = event.pos[0]//64+(5*((event.pos[1]-36)//64))
                         #print(index)
                         selected_tile = list(tiles.keys())[index]
